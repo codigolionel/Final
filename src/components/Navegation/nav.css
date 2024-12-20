@@ -1,0 +1,62 @@
+nav {
+    background-color: rgb(50, 66, 84);
+    height: fit-content;
+}
+
+
+.hamb {
+
+    display: none;
+
+}
+
+.four{
+    padding: 0;
+ 
+}
+
+
+a {
+    color: rgb(110, 204, 175);
+    text-decoration: none;
+
+}
+
+.dato {
+    color: rgb(110, 204, 175);
+
+}
+
+
+li {
+    color: aqua;
+}
+.go{
+    width: 575px;
+}
+.reb{
+    width: 50%;
+    margin: 0;
+    padding: 14px;
+}
+
+
+
+
+@media(max-width:800px) {
+
+    .hamb {
+        display: inline;
+        width: 45px;
+
+    }
+    .reb {
+        display: flex;
+       
+        justify-content: end;
+        width: fit-content;
+        padding: 10px;
+        }
+
+   
+}
